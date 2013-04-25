@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="shortcut icon" href="/images/favicon.ico"> -->
+  <title>SnappyQuiz| by Jonathan Wexler</title>
+  <%= stylesheet_link_tag "application", media:"all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= render '/layouts/shim'%>
+</head>
+<body style="background: #EEEEEE;">
+  <%= render '/layouts/header' %>
+  <div class= "container">
+    <div class="row">
+      <div class="span9"><%= yield%> </div>
+    <div class="span3">
+      <h1>About Us</h1>
+      <br>
+      This is a site created by Jonathan Wexler for his Independent study under Tim Hickey.
+    </div>
+  </div>
+</div> 
+<%= render '/layouts/footer' %>
+</body>
+
+
+</html>
