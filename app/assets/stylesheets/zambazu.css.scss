@@ -9,7 +9,7 @@
   margin-bottom: 10px;
   background-color: #fff;
   h1 {
-    margin-bottom: 0;
+    margin-bottom: -20;
     font-size: 18px;
     letter-spacing: -1px;
     text-align: left;
@@ -159,8 +159,8 @@ a{
 }
 
 img{
-  height: 30px;
-  width: 100px;
+  height: 200px;
+  width: 550px;
 
 }
 .form-search
@@ -262,8 +262,9 @@ html {
     h1{
       font-size:3em;
       letter-spacing:-2px;
-      margin-bottom:30px;
-      text-align:center;
+      margin-bottom:0px;
+      margin-left:100px;
+      text-align:left;
       color:#4b5a8e ;
       
     }
