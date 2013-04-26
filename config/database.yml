@@ -45,3 +45,11 @@ test:
   pool: 5
   username: JonathanWexler
   password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: snappyquiz_test
+  pool: 5
+  username: JonathanWexler
+  password:
