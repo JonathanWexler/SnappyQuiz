@@ -1,5 +1,9 @@
 Snappyquiz::Application.routes.draw do
   
+  resources :questions
+  resources :users
+
+
   #match 'auth/:provider/callback' =&gt; 'authentications#create' #, to: 'sessions#create'
   match 'auth/:provider/callback' => 'sessions#create'
   # match 'auth/facebook/callback' => 'sessions#create'
@@ -7,7 +11,8 @@ Snappyquiz::Application.routes.draw do
 
   match 'auth/failure', to: redirect("/")
   match "/signout" => "sessions#destroy", :as => :signout
-
+  match '/users/:id', :to => 'users#show', :as => :user
+  match '/all_users', :to => 'users#index'
 
   resources :posts do
     resources :comments

@@ -21,11 +21,11 @@
         </div>
 
         <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <!--     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </a>
+        </a> -->
 
         <!-- Be sure to leave the brand out there if you want it shown -->
         <!-- <img src="images/SnappyQuizLogo300.png"> -->
@@ -36,6 +36,7 @@
           <!-- .nav, .navbar-search, .navbar-form, etc -->
           <ul class="nav">
             <li><%= link_to "Home", "index" %></li>
+            <li><%= link_to "Profile", users_path %></li>
             <li><%= link_to "Posts", posts_path %></li>
             <li><%= link_to "Comments"%></li>
           </ul>

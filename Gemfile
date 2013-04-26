@@ -17,6 +17,7 @@ gem 'omniauth-google-oauth2'
 gem 'omniauth-identity'
 gem 'oauth2'
 gem 'heroku'
+gem 'best_in_place'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
