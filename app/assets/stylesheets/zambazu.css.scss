@@ -152,8 +152,11 @@ font-size:1.1em;
 }
 
 img{
-height: 200px;
-width: 550px;
+height: 400px;
+width: 400px;
+display: block;
+margin-left: 200px;
+margin-right: auto;
 
 }
 .form-search
@@ -543,3 +546,23 @@ margin 0.5s ease-out;
 margin 0.5s ease-out; 
 -o-transition: margin 0.5s ease-out; 
 } .ex1 img:hover { margin-top: 2px; }
+
+
+.btn-answers {
+background-color: #4b5a8e;
+color:#fff;
+width: 200px;
+height: 100px;
+margin-left: 130px;
+/*background-image: -moz-linear-gradient(top, #ab6361, #ab7661);
+background-image: -ms-linear-gradient(top, #ab6361, #ab7661);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ab6361), to(#ab7661));
+background-image: -webkit-linear-gradient(top, #ab6361, #ab7661);
+background-image: -o-linear-gradient(top, #ab6361, #ab7661);
+background-image: linear-gradient(top, #ab6361, #ab7661);*/
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ab6361', endColorstr='#ab7661', GradientType=0);
+border-color: #ab7661 #ab7661 #7d5342;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+*background-color: #4b5a8e;
+/* Darken IE7 buttons by default so they stand out more given they won't have borders */}

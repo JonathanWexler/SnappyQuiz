@@ -1,9 +1,10 @@
-<h1>Listing questions</h1>
+<h1>What is this Image? इस छवि क्या है?</h1>
 
 <table>
   <tr>
-    <th>Question</th>
-    <th>Answer</th>
+    <th><br/><br/><br/>
+      <%= image_tag 'http://images3.wikia.nocookie.net/__cb20130406213030/animalcrossing/images/e/e3/Lion-013-2048x2048.jpg'%></th>
+    
     <th></th>
     <th></th>
     <th></th>
@@ -21,5 +22,21 @@
 </table>
 
 <br />
+<table>
+<tr>
+    <th>ANSWERS</th>
+</tr>
+</table>
+<br /><br />
+
+<div class="btn-group">
+  <button class="btn-answers" >Lion</button>
+  <button class="btn-answers">  Tiger </button><br><br>
+  <button class="btn-answers">Bear</button>
+  <button class="btn-answers">Elephant</button><br><br>
+
+</div>
+
+
 
 <%= link_to 'New Question', new_question_path %>
