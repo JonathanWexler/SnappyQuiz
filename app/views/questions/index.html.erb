@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th><br/><br/><br/>
-      <%= image_tag 'http://images3.wikia.nocookie.net/__cb20130406213030/animalcrossing/images/e/e3/Lion-013-2048x2048.jpg'%></th>
+      <%= image_tag ('http://images3.wikia.nocookie.net/__cb20130406213030/animalcrossing/images/e/e3/Lion-013-2048x2048.jpg'), :class => "img-question"%></th>
     
     <th></th>
     <th></th>
@@ -24,7 +24,7 @@
 <br />
 <table>
 <tr>
-    <th>ANSWERS</th>
+    <th></th>
 </tr>
 </table>
 <br /><br />
@@ -39,4 +39,7 @@
 
 
 
-<%= link_to 'New Question', new_question_path %>
+<button class="btn-next" >
+  <h1> <%= link_to 'Next Quiz', new_question_path %> 
+  </h1>
+</button>
