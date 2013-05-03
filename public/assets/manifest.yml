@@ -5,10 +5,10 @@ SnappyQuizLogo300.png: SnappyQuizLogo300-4b7ceac37bb932ce049c73b8477232e7.png
 SnappyQuizLogo300/index.png: SnappyQuizLogo300-4b7ceac37bb932ce049c73b8477232e7.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-bbae765ca7f8f5cc1c92341d0f3443e5.js
-application/index.js: application-bbae765ca7f8f5cc1c92341d0f3443e5.js
-application.css: application-7ac199b2199518d154c1eb83ab3ea6f6.css
-application/index.css: application-7ac199b2199518d154c1eb83ab3ea6f6.css
+application.js: application-fbab051badeabdad2f83bd20db812d4c.js
+application/index.js: application-fbab051badeabdad2f83bd20db812d4c.js
+application.css: application-cdef37d57bcd295bcafcb1e0d00d1954.css
+application/index.css: application-cdef37d57bcd295bcafcb1e0d00d1954.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 fontawesome-webfont.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
