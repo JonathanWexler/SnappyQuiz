@@ -6,6 +6,8 @@ Snappyquiz::Application.routes.draw do
 
   #match 'auth/:provider/callback' =&gt; 'authentications#create' #, to: 'sessions#create'
   match 'auth/:provider/callback' => 'sessions#create'
+
+  resources :identities
   # match 'auth/facebook/callback' => 'sessions#create'
   # match 'auth/google_oauth2/callback' => 'sessions#create'
 

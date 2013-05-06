@@ -153,11 +153,18 @@ font-size:1.1em;
 
 img{
 height: 200px;
-width: 500px;
+width: 550px;
 display: block;
 margin-left: 200px;
 margin-right: auto;
 
+}
+
+.img-social{
+height: 5px;
+width: 50px;
+display: stretch;
+margin-right: auto;
 }
 
 .img-question{
@@ -319,7 +326,7 @@ float: left;
 display: block;
 padding: 8px 20px 12px;
 margin-left: 20px;
-font-size: 35px;
+font-size: 38px;
 font-weight: 400;
 line-height: 0.6;
 
