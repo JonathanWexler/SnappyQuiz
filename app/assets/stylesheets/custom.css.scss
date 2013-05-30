@@ -252,7 +252,7 @@ html {
 	overflow-y: scroll;
 		}
 	body{
-		padding-top: 60px;
+		padding-top: 0px;
 		}
 		section {
 			overflow: auto;
@@ -287,6 +287,7 @@ html {
 			margin-bottom: 30px;
 			text-align: normal;
 			color:#4b5a8e;
+			text-align: center 
 		}
 		p {
 			font-size:1.1em;
@@ -324,10 +325,10 @@ html {
 	overflow: visible;
 	float: left;
 	display: block;
-	padding: 8px 20px 12px;
+	padding: 10px 20px 20px;
 	margin-left: 20px;
 	margin-top: 5px;
-	font-size: 38px;
+	font-size: 30px;
 	font-weight: 400;
 	line-height: 0.6;
 
@@ -370,7 +371,7 @@ text-indent:-999px;
 	*position: relative;
 	*z-index: 2;
 	overflow: visible;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 
 }
 .btn {
@@ -486,18 +487,19 @@ aside {
 
 .navbar .nav {
 	li {
-	a{
+		a{
 		float: left;
-	display: block;
-	font-size: 16px;
-	font-weight: 200px;
-	line-height: 1;
-	color: #fff;
-	&:hover {
-	text-decoration:none;
-	background:transparent;
+		display: block;
+		font-size: 20px;
+		font-weight: 500px;
+		margin-top: 6px;
+		line-height: 1;
+		color: #fff;
+		&:hover {
+		text-decoration:none;
+		background:transparent;
 
-	}
+		}
 	}
 	} 
 }
